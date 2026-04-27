@@ -1,9 +1,57 @@
 .education {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 1rem;
-  margin: 100px 0px;
+
+  gap: 2rem;
+}
+
+/* TÍTULO */
+.education h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.education h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.education h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #b4b4b4;
+}
+
+/* AÑO */
+.education p {
+  font-size: 1rem;
+  color: #b4b4b4;
+}
+
+/* LISTA DE CURSOS */
+#relevantcourses {
+  margin-top: 1rem;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+#relevantcourses li {
+  font-size: 1rem;
+  color: #f5f4f8;
+
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
