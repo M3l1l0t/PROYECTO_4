@@ -17,7 +17,7 @@ const template = () => {
     </ul>
       <p>${data.aboutMe}</p>
       <p>${data.address}</p>
-      <a href=${`mailto:${data.email}>Contact me</a>`}
+      <a href="mailto:psarenas@hotmail.es">Contact Me</a>
     </section>
   `;
 };
