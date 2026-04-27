@@ -1,5 +1,5 @@
 import data from "../../components/data/data";
-import "../Experience/Experience.js";
+import "../Experience/Experience.css";
 
 const template = () => {
   return `
