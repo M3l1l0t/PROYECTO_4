@@ -2,30 +2,34 @@ import "../Header/Header.css";
 
 const template = () => {
   return `
-  <header>
-    <h1>Paloma Sánchez</h1>
-    <nav>
-      <ul>
+  <header class="container">
+    <h1 class="logo">Paloma Sánchez</h1>
+
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+
         <li>
-          <a href="#aboutme">About me</a>
+          <a href="#" id="nav-about" class="nav-link">About me</a>
         </li>
+
         <li>
-          <a href="#education">Education</a>
+          <a href="#" id="nav-education" class="nav-link">Education</a>
         </li>
+
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#" id="nav-experience" class="nav-link">Experience</a>
         </li>
+
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#" id="nav-projects" class="nav-link">Projects</a>
         </li>
+
       </ul>
     </nav>
   </header>
   `;
 };
 
-const Header = () => {
-  return template();
-};
+const Header = () => template();
 
 export default Header;
